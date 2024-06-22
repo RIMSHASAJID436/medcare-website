@@ -378,13 +378,21 @@ font-weight: 600;
         .appoint{
             margin-left: 2%;
         }
-        .blue{
-            background-image: url(img/pattern_bg.jpg.webp);
-            height: 100vh;
+        .back-img{
+            background-image: url(img/bg_1.png);
+            height: 120vh;
+            margin-top: -300px;
+            object-fit: cover;
             margin-bottom: 10%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        }
+        .blue-img{
+            background:linear-gradient(rgba(28, 16, 249, 0.6), rgba(25, 13, 250, 0.6)), url(img/bg1.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 70vh;
+            text-align: center;
+            margin-bottom: 10%;
+            object-fit: cover;
         }
         .blue .card{
             margin-top: 20px;

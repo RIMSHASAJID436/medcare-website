@@ -114,7 +114,6 @@ height: 130vh;
 }
 .blue{
     background-image: url(img/pattern_bg.jpg.webp);
-    background-repeat: no-repeat;
     height: 50vh;
     margin-bottom: 10%;
     display: flex;
@@ -392,7 +391,6 @@ font-weight: 600;
         }
         .blue-img{
             background: linear-gradient(rgba(37, 5, 165, 0.7), rgba(37, 5, 165, 0.7)), url(img/bg1.jpg);
-            background-repeat: no-repeat;
             background-position: center;
             height: 70vh;
             text-align: center;
@@ -429,15 +427,15 @@ font-weight: 600;
         }
         .appoint{
             display: inline-block;
-            width: 160px;
+            width: 165px;
             padding: 5px;
             font-size: small; 
         }
         .depart{
             display: inline-block;
-            width: 160px;
+            width: 165px;
             padding: 5px;
-            margin-top: -5px;
+            margin-top: -15px !important;
             font-size: small;
             
         }

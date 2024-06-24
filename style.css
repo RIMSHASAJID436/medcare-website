@@ -365,7 +365,7 @@ font-weight: 600;
         background-repeat: no-repeat;
         background-position: middle;
         object-fit: cover;
-        height: 100vh;
+        height: 80vh;
         }
         .home h2{
             font-size: 6vw;
@@ -418,11 +418,11 @@ font-weight: 600;
             margin-top: 400px;
         }
         .logo-pics img{
-            padding-left: 0;
+      
             display: flex;
-            justify-content: space-around;
-            margin: 20px;
-            width: 110px;
+            justify-content: center;
+       margin: 0 auto;
+            width: 150px;
             height: 70px;
         }
         .appoint{
@@ -441,7 +441,7 @@ font-weight: 600;
         }
         .blue{
             background-image: url(img/pattern_bg.jpg.webp);
-            height: 80vh;
+            height: 100vh;
             margin-bottom: 10%;
             display: flex;
             justify-content: center;

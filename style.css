@@ -60,6 +60,7 @@ span {
 }
 .home{
 background-image: url(img/home-banner.jpg.webp);
+background-repeat: no-repeat;
 background-position: center;
 object-fit: cover;
 height: 130vh;
@@ -113,6 +114,7 @@ height: 130vh;
 }
 .blue{
     background-image: url(img/pattern_bg.jpg.webp);
+    background-repeat: no-repeat;
     height: 50vh;
     margin-bottom: 10%;
     display: flex;
@@ -179,6 +181,7 @@ font-weight: bold;
 }
 .back-img{
     background-image: url(img/bg_1.png);
+    background-repeat: no-repeat;
     height: 150vh;
     margin-top: -300px;
     object-fit: cover;
@@ -248,12 +251,13 @@ font-size: medium;
     border: 1px solid lightgray;
 }
 .blue-img{
-    background:linear-gradient(rgba(28, 16, 249, 0.6), rgba(25, 13, 250, 0.6)), url(img/bg1.jpg);
+    background: linear-gradient(rgba(37, 5, 165, 0.7), rgba(37, 5, 165, 0.7)), url(img/bg1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     height: 70vh;
     text-align: center;
     margin-bottom: 10%;
+    box-sizing: border-box;
     object-fit: cover;
 }
 .blue-img .txt{
@@ -359,6 +363,7 @@ font-weight: 600;
     }
     .home{
         background-image: url(img/home-banner.jpg.webp);
+        background-repeat: no-repeat;
         background-position: middle;
         object-fit: cover;
         height: 100vh;
@@ -379,20 +384,21 @@ font-weight: 600;
         }
         .back-img{
             background-image: url(img/bg_1.png);
+            background-repeat: no-repeat;
             height: 120vh;
             margin-top: -300px;
             object-fit: cover;
             margin-bottom: 10%;
         }
         .blue-img{
-            background:linear-gradient(rgba(28, 16, 249, 0.6), rgba(25, 13, 250, 0.6)), url(img/bg1.jpg);
+            background: linear-gradient(rgba(37, 5, 165, 0.7), rgba(37, 5, 165, 0.7)), url(img/bg1.jpg);
             background-repeat: no-repeat;
             background-position: center;
             height: 70vh;
             text-align: center;
             margin-bottom: 10%;
-            object-fit: cover;
             box-sizing: border-box;
+            object-fit: cover;
         }
         .blue .card{
             margin-top: 20px;
